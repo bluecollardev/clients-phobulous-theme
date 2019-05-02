@@ -8,9 +8,11 @@ var TEST_DIR = __dirname + '/' + config.testDirectory;
 var TEMPLATE_BUILD_DIR = __dirname + '/' + config.templateBuildDirectory; // Templates refer to Quick Commerce JSX templates
 var TEMPLATE_SOURCE_DIR = __dirname + '/' + config.templateSourceDirectory; // Templates refer to Quick Commerce JSX templates
 
-// TODO: If settings configured here, override built-in app mechanism
-// TODO: Auto-stringify values
-var wwwPrefix = 'www.';
+// TODO: Env vars
+//var domainName = 'phobulous.ca';
+var domainName = 'localhost';
+var wwwPrefix = (domainName === 'localhost' || /[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}/.test(domainName)) ? '' : 'www.';
+var baseUri = 'http://' + wwwPrefix + domainName + '/';
 
 var env = {
   QC_SETTING_STORAGE_DRIVER: JSON.stringify('normal'), // Options: [file|uri|text]
@@ -19,13 +21,13 @@ var env = {
   API_TARGET: JSON.stringify('normal'),
   AUTH_MODE: JSON.stringify('mock'), // [normal|legacy|mock]
   QC_APP_IMAGES_PATH: JSON.stringify('img/'), // Relative path to catalog image folder
-  QC_APP_URI: JSON.stringify('http://' + wwwPrefix + 'phobulousedmonton.com/'),
-  QC_IMAGES_URI: JSON.stringify('http://' + wwwPrefix + 'phobulousedmonton.com/image/'),
+  QC_APP_URI: JSON.stringify(baseUri + ''),
+  QC_IMAGES_URI: JSON.stringify(baseUri + 'image/'),
   QC_IMAGES_PATH: JSON.stringify('image/'), // Relative path to catalog image folder
-  QC_BASE_URI: JSON.stringify('http://' + wwwPrefix + 'phobulousedmonton.com/'),
-  QC_LEGACY_API: JSON.stringify('http://' + wwwPrefix + 'phobulousedmonton.com/api/rest/'),
-  QC_RESOURCE_API: JSON.stringify('http://' + wwwPrefix + 'phobulousedmonton.com/qcapi/api/res/'),
-  QC_API: JSON.stringify('http://' + wwwPrefix + 'phobulousedmonton.com/qcapi/api/v1/')
+  QC_BASE_URI: JSON.stringify(baseUri + ''),
+  QC_LEGACY_API: JSON.stringify(baseUri + 'api/rest/'),
+  QC_RESOURCE_API: JSON.stringify(baseUri + 'qcapi/api/res/'),
+  QC_API: JSON.stringify(baseUri + 'qcapi/api/v1/')
 };
 
 // Are we connected to a QuickCommerce installation?
