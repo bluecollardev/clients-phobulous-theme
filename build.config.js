@@ -1,7 +1,7 @@
 module.exports = {
 	sourceDirectory: './src',
 	appDirectory: './src/app',
-	buildDirectory: './build',
+	buildDirectory: '../upload',
 	testDirectory: './test',
 	libDirectory: './lib',
 	templateSourceDirectory: './src/templates',
