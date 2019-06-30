@@ -6,7 +6,7 @@
   "scripts": {
     "fix-memory-limit": "cross-env LIMIT=4096 increase-memory-limit",
     "install-pkgs": "yarn install",
-    "install-github-pkgs": "yarn add git+https://github.com/firebrandsolutions/quickcommerce-react.git && bash fix-node_modules-issues.sh",
+    "install-github-pkgs": "yarn add git+https://github.com/firebrandsolutions/quickcommerce-react.git",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Lucas Lopatka",
