@@ -10,7 +10,7 @@ var TEMPLATE_SOURCE_DIR = __dirname + '/' + config.templateSourceDirectory; // T
 
 // TODO: Env vars
 //var domainName = 'phobulous.ca';
-var domainName = 'localhost';
+var domainName = '68.183.205.157';
 var wwwPrefix = (domainName === 'localhost' || /[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}/.test(domainName)) ? '' : 'www.';
 var baseUri = 'http://' + wwwPrefix + domainName + '/';
 
