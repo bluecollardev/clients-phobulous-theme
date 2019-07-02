@@ -9,8 +9,8 @@ var TEMPLATE_BUILD_DIR = __dirname + '/' + config.templateBuildDirectory; // Tem
 var TEMPLATE_SOURCE_DIR = __dirname + '/' + config.templateSourceDirectory; // Templates refer to Quick Commerce JSX templates
 
 // TODO: Env vars
-//var domainName = 'phobulous.ca';
-var domainName = '68.183.205.157';
+var domainName = 'phobulous.ca';
+//var domainName = '68.183.205.157';
 var wwwPrefix = (domainName === 'localhost' || /[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}/.test(domainName)) ? '' : 'www.';
 var baseUri = 'http://' + wwwPrefix + domainName + '/';
 
