@@ -384,6 +384,7 @@ export class QcShop001 extends Component {
             />
 
             <div className='hero-bottom'>
+
               <div className='container'>
                 <div id='takeout-and-delivery' className='parallax_title_intro' data-stellar-ratio='-2.3'>
                   <div className='parallax_title banner_title'>
@@ -463,6 +464,33 @@ export class QcShop001 extends Component {
                         </div>*/}
                 </div>
               </div>
+
+              <div className='container'>
+                <div id='hours-of-operation' className='parallax_title_intro' data-stellar-ratio='-2.3'>
+                  <div className='parallax_title banner_title'>
+                    <h2 className='ppb_title cursive space-top-3x space-bottom-2x'><span className='ppb_title_first'>~ Hours of Operation ~</span></h2>
+                    <h4 className='ppb_title'>
+                      <span className='ppb_title_first'></span>
+                    </h4>
+                    <br />
+                    <div className='display-flex space-around'>
+                      <div>
+                        <ul className='no-list-style text-left'>
+                          <li className='text-center'><strong>Sunday</strong> 11:00 am - 9:30 pm</li>
+                          <li className='text-center'><strong>Monday</strong> 11:00 am - 9:30 pm</li>
+                          <li className='text-center'><strong>Tuesday</strong> 11:00 am - 9:30 pm</li>
+                          <li className='text-center'><strong>Wednesday</strong> 11:00 am - 9:30 pm</li>
+                          <li className='text-center'><strong>Thursday</strong> 11:00 am - 9:30 pm</li>
+                          <li className='text-center'><strong>Friday</strong> 11:00 am - 11:00 pm</li>
+                          <li className='text-center'><strong>Saturday</strong> 11:00 am - 11:00 pm</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
             </div>
             <div id='about-us' className='hero-bottom'>
               <div className='container'>
@@ -626,7 +654,7 @@ export class QcShop001 extends Component {
                 //})
               }}>
           </a>
-          <div className='copyright-wrapper'><p className='copyright'>© 2017 Phobulous. Made with <i className='text-danger material-icons favorite' /> by Firebrand Web Solutions.</p></div>
+          <div className='copyright-wrapper'><p className='copyright'>© 2020 Phobulous. Made with <i className='text-danger material-icons favorite' /> by Blue Collar Development.</p></div>
         </Footer>
         {this.state.displayPdfMenuModal && (
           <div className='dark'>

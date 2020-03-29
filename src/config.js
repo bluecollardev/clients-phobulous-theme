@@ -20,12 +20,12 @@ export default {
         facebook: 'mysiteexample',
         twitter: 'mysiteexample',
         google: 'mysiteexample',
-        hours: '9 - 5 Monday to Friday',
-        copyright: 'Firebrand Web Solutions',
+        hours: '',
+        copyright: 'Blue Collar development',
         paymentMethods: ['Visa', 'Paypal', 'MasterCard', 'Discover']
     },
     header: {
-        
+
     },
     menu: {
         items: [
@@ -45,68 +45,68 @@ export default {
             layout: {
                 images: {
                     heroSlides: [
-                        { 
-                            id: 'buns', 
+                        {
+                            id: 'buns',
                             action: {
                                 href: '#main-content'
                             },
-                            title: 'Fabulously Delicious', 
-                            subtitle1: 'Vermicelli Bowls and Noodle Soups', 
-                            subtitle2: 'Explore our new', 
-                            subtitle3: 'take out menu!', 
-                            ctaText: 'View Menu', 
-                            className: 'slide', 
+                            title: 'Fabulously Delicious',
+                            subtitle1: 'Vermicelli Bowls and Noodle Soups',
+                            subtitle2: 'Explore our new',
+                            subtitle3: 'take out menu!',
+                            ctaText: 'View Menu',
+                            className: 'slide',
                             backgroundImage: 'img/products/black/banner/jumbo-prawn-vermicelli.jpg',
                             textPosition: {
                                 fromTop: {},
                                 fromBottom: {}
                             }
                         },
-                        { 
+                        {
                             id: 'salad-rolls',
                             action: {
                                 href: '#main-content'
                             },
-                            title: 'Fresh & Crunchy', 
-                            subtitle1: 'Shrimp & Pork Salad Rolls', 
-                            subtitle2: 'Explore our new', 
+                            title: 'Fresh & Crunchy',
+                            subtitle1: 'Shrimp & Pork Salad Rolls',
+                            subtitle2: 'Explore our new',
                             subtitle3: 'take out menu!',
-                            ctaText: 'View Menu', 
-                            className: 'slide', 
+                            ctaText: 'View Menu',
+                            className: 'slide',
                             backgroundImage: 'img/products/black/banner/pork-and-shrimp-salad-rolls.jpg',
                             textPosition: {
                                 fromTop: {},
                                 fromBottom: {}
                             }
                         },
-                        { 
-                            id: 'spring-rolls', 
+                        {
+                            id: 'spring-rolls',
                             action: {
                                 href: '#main-content'
                             },
-                            title: 'Hot and Delicious', 
-                            subtitle1: 'Spring Rolls, Dumplings and More', 
-                            subtitle2: 'Explore our new', 
+                            title: 'Hot and Delicious',
+                            subtitle1: 'Spring Rolls, Dumplings and More',
+                            subtitle2: 'Explore our new',
                             subtitle3: 'take out menu!',
-                            ctaText: 'View Takeout Menu', 
-                            className: 'slide', 
+                            ctaText: 'View Takeout Menu',
+                            className: 'slide',
                             backgroundImage: 'img/products/black/banner/dumplings.jpg',
                             textPosition: {
                                 fromTop: {},
                                 fromBottom: {}
                             }
                         },
-                        { 
-                            id: 'buns', 
+                        {
+                            id: 'buns',
                             action: {
                                 href: '#main-content'
                             },
-                            title: 'Fabulously Delicious', 
-                            subtitle1: 'Vermicelli Bowls and Noodle Soups', 
-                            subtitle2: 'Explore our new', 
-                            subtitle3: 'take out menu!', 
-                            ctaText: 'View Menu', 
-                            className: 'slide', 
+                            title: 'Fabulously Delicious',
+                            subtitle1: 'Vermicelli Bowls and Noodle Soups',
+                            subtitle2: 'Explore our new',
+                            subtitle3: 'take out menu!',
+                            ctaText: 'View Menu',
+                            className: 'slide',
                             backgroundImage: 'img/products/black/banner/jumbo-prawn-vermicelli.jpg',
                             textPosition: {
                                 fromTop: {},
@@ -116,28 +116,28 @@ export default {
                     ],
                     // Set if mapping static content
                     categories: [
-                        { 
+                        {
                             id: 'pho',
                             title: 'Noodle Soups (Pho)',
-                            className: 'featured-image', 
-                            backgroundImage: 'img/featured-image/phobulous/banner/20170911-DSCF5641.jpg' 
+                            className: 'featured-image',
+                            backgroundImage: 'img/featured-image/phobulous/banner/20170911-DSCF5641.jpg'
                         },
-                        { 
-                            id: 'bun', 
-                            title: 'Noodle Bowls (Bun)', 
-                            className: 'featured-image', 
-                            backgroundImage: 'img/featured-image/phobulous/banner/20170911-DSCF5683.jpg' 
+                        {
+                            id: 'bun',
+                            title: 'Noodle Bowls (Bun)',
+                            className: 'featured-image',
+                            backgroundImage: 'img/featured-image/phobulous/banner/20170911-DSCF5683.jpg'
                         },
-                        { 
-                            id: 'rice', 
-                            title: 'Rice Dishes', 
-                            className: 'featured-image', 
-                            backgroundImage: 'img/featured-image/phobulous/banner/20170911-DSCF5729.jpg' 
+                        {
+                            id: 'rice',
+                            title: 'Rice Dishes',
+                            className: 'featured-image',
+                            backgroundImage: 'img/featured-image/phobulous/banner/20170911-DSCF5729.jpg'
                         },
-                        { 
-                            id: 'appetizers', 
-                            title: 'Appetizers', 
-                            className: 'featured-image', 
+                        {
+                            id: 'appetizers',
+                            title: 'Appetizers',
+                            className: 'featured-image',
                             backgroundImage: 'img/featured-image/phobulous/banner/20170911-DSCF5578.jpg'
                         }
                     ],
@@ -169,27 +169,27 @@ export default {
         // Use markdown
     ],
     cart: [
-        { 
-            id: '', 
+        {
+            id: '',
             name: 'Noodle Soup with Rare Beef, Brisket and Meat Balls',
             shortDescription: 'Rare Beef, Brisket and Meat Balls',
-            description: 'Noodle Soup with Rare Beef, Brisket and Meat Balls', 
-            image: 'img/products/fhd/20170911-DSCF5603.jpg' 
+            description: 'Noodle Soup with Rare Beef, Brisket and Meat Balls',
+            image: 'img/products/fhd/20170911-DSCF5603.jpg'
         },
-        { 
-            id: '', 
-            name: 'Deep-Fried Spring Rolls', 
+        {
+            id: '',
+            name: 'Deep-Fried Spring Rolls',
             shortDescription: 'Deep-Fried Spring Rolls',
-            description: 'Deep-Fried Spring Rolls', 
-            image: 'img/products/fhd/20170911-DSCF5509.jpg' 
+            description: 'Deep-Fried Spring Rolls',
+            image: 'img/products/fhd/20170911-DSCF5509.jpg'
         }
     ],
     catalog: {
         items: [
-            {   id: '', 
-                name: 'Spicy Satay Noodle Soup with Seafood', 
-                shortDescription: 'Spicy Satay Noodle Soup with Seafood', 
-                description: 'Spicy Satay Noodle Soup with Seafood', 
+            {   id: '',
+                name: 'Spicy Satay Noodle Soup with Seafood',
+                shortDescription: 'Spicy Satay Noodle Soup with Seafood',
+                description: 'Spicy Satay Noodle Soup with Seafood',
                 image: 'img/products/fhd/20170911-DSCF5650.jpg',
                 options: [
                     {
@@ -205,10 +205,10 @@ export default {
                 ],
                 price: 15.95
             },
-            { 
-                id: '', 
+            {
+                id: '',
                 name: 'Noodle Soup with Rare Beef, Brisket and Meat Balls',
-                shortDescription: 'Noodle Soup with Rare Beef, Brisket and Meat Balls', 
+                shortDescription: 'Noodle Soup with Rare Beef, Brisket and Meat Balls',
                 description: 'Noodle Soup with Rare Beef, Brisket and Meat Balls',
                 image: 'img/products/fhd/20170911-DSCF5603.jpg',
                 options: [
@@ -225,11 +225,11 @@ export default {
                 ],
                 price: 15.95
             },
-            { 
-                id: '', 
-                name: 'Vermicelli Bowl with Beef, Shrimp and Spring Rolls', 
-                shortDescription: 'Vermicelli Bowl with Beef, Shrimp and Spring Rolls', 
-                description: 'Vermicelli Bowl with Beef, Shrimp and Spring Rolls', 
+            {
+                id: '',
+                name: 'Vermicelli Bowl with Beef, Shrimp and Spring Rolls',
+                shortDescription: 'Vermicelli Bowl with Beef, Shrimp and Spring Rolls',
+                description: 'Vermicelli Bowl with Beef, Shrimp and Spring Rolls',
                 image: 'img/products/fhd/20170911-DSCF5701.jpg',
                 options: [
                     {
@@ -250,11 +250,11 @@ export default {
                 ],
                 price: 15.95
             },
-            { 
-                id: '', 
-                name: 'Vermicelli Bowl with Seafood and Spring Rolls', 
-                shortDescription: 'Vermicelli Bowl with Seafood and Spring Rolls', 
-                description: 'Vermicelli Bowl with Seafood and Spring Rolls', 
+            {
+                id: '',
+                name: 'Vermicelli Bowl with Seafood and Spring Rolls',
+                shortDescription: 'Vermicelli Bowl with Seafood and Spring Rolls',
+                description: 'Vermicelli Bowl with Seafood and Spring Rolls',
                 image: 'img/products/fhd/20170911-DSCF5683.jpg',
                 options: [
                     {
@@ -265,11 +265,11 @@ export default {
                 ],
                 price: 15.95
             },
-            { 
-                id: '', 
-                name: 'Rice Bowl with Spicy Satay Shrimp', 
-                shortDescription: 'Rice Bowl with Spicy Satay Shrimp', 
-                description: 'Rice Bowl with Spicy Satay Shrimp', 
+            {
+                id: '',
+                name: 'Rice Bowl with Spicy Satay Shrimp',
+                shortDescription: 'Rice Bowl with Spicy Satay Shrimp',
+                description: 'Rice Bowl with Spicy Satay Shrimp',
                 image: 'img/products/fhd/20170911-DSCF5727.jpg',
                 options: [
                     {
@@ -280,11 +280,11 @@ export default {
                 ],
                 price: 15.95
             },
-            { 
-                id: '', 
+            {
+                id: '',
                 name: 'Fresh Vietnamese Salad Rolls with Shrimp',
                 shortDescription: 'Fresh Vietnamese Salad Rolls with Shrimp',
-                description: 'Fresh Vietnamese Salad Rolls with Shrimp', 
+                description: 'Fresh Vietnamese Salad Rolls with Shrimp',
                 image: 'img/products/fhd/20170911-DSCF5532.jpg',
                 options: [
                     {
@@ -295,11 +295,11 @@ export default {
                 ],
                 price: 15.95
             },
-            { 
-                id: '', 
-                name: 'Steamed Gyoza Dumplings', 
-                shortDescription: 'Steamed Gyoza Dumplings', 
-                description: 'Steamed Gyoza Dumplings', 
+            {
+                id: '',
+                name: 'Steamed Gyoza Dumplings',
+                shortDescription: 'Steamed Gyoza Dumplings',
+                description: 'Steamed Gyoza Dumplings',
                 image: 'img/products/fhd/20170911-DSCF5556.jpg',
                 options: [
                     {
@@ -310,11 +310,11 @@ export default {
                 ],
                 price: 15.95
             },
-            { 
-                id: '', 
-                name: 'Deep-Fried Spring Rolls', 
-                shortDescription: 'Deep-Fried Spring Rolls', 
-                description: 'Deep-Fried Spring Rolls', 
+            {
+                id: '',
+                name: 'Deep-Fried Spring Rolls',
+                shortDescription: 'Deep-Fried Spring Rolls',
+                description: 'Deep-Fried Spring Rolls',
                 image: 'img/products/fhd/20170911-DSCF5509.jpg',
                 options: [
                     {
