@@ -85,8 +85,8 @@ p.copyright {
     margin: 1.25rem 0;
 }
 
-h1, h2, h3, h4, h5, h6, 
-.h1, .h2, .h3, .h4, .h5, .h6, 
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
 .superfood-btn, .footer-title {
     font-family: 'Gentium Basic', serif !important;
     text-shadow: 0 0 3px rgba(0,0,0,0.3);
@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6,
     font-size: 4.5rem;
 }
 
-.hero-slider .slide b, 
+.hero-slider .slide b,
 .hero-slider .slide strong {
     font-weight: normal;
 }
@@ -161,11 +161,11 @@ h6.cursive, .h6 .cursive {
     .main-container {
         margin-top: 0 !important;
     }
-    
+
     .superfood-heading {
         font-size: 2.5rem !important;
     }
-    
+
     .superfood-text img {
         max-width: 50% !important; /* Overriding inline style */
     }
@@ -271,7 +271,7 @@ header, .navbar {
     }
 }
 
-.hero-slider h1, .hero-slider h2, .hero-slider h3, .hero-slider h4, .hero-slider h5, .hero-slider h6, 
+.hero-slider h1, .hero-slider h2, .hero-slider h3, .hero-slider h4, .hero-slider h5, .hero-slider h6,
 .hero-slider .h1, .hero-slider .h2, .hero-slider .h3, .hero-slider .h4, .hero-slider .h5, .hero-slider .h6 {
     color: white;
     text-shadow: 1px 1px 7px #333;
@@ -317,11 +317,11 @@ a:hover, .text-primary:hover {
         display: flex;
         align-items: center;
     }
-    
+
     .site-logo img {
         max-width: 215px;
     }
-    
+
     .site-logo.visible-mobile {
         padding-bottom: 0;
         padding-top: 0;
@@ -336,6 +336,7 @@ a:hover, .text-primary:hover {
 
 .thumbnail {
     border: 1px solid rgba(88,88,88,0.457);
+    max-height: 140px;
 }
 
 .product-section {
@@ -388,7 +389,7 @@ h1, .h1 {
     padding-bottom: 0 !important;
 }
 
-.shop-item .shop-item-details .shop-item-title, 
+.shop-item .shop-item-details .shop-item-title,
 .shop-item .shop-item-details .shop-item-price {
     display: table-cell;
     vertical-align: middle;
@@ -468,8 +469,8 @@ a.btn, a.btn-primary, a.add-to-cart {
 }
 
 /* Phobulous doesn't require account or cart functionality */
-a[href="#account"], a[href="#cart"], 
-a.add-to-cart, 
+a[href="#account"], a[href="#cart"],
+a.add-to-cart,
 a.add-to-wishlist {
     display: none !important;
 }
@@ -575,23 +576,23 @@ a.add-to-wishlist {
 @media screen and (max-width: 768px) {
     /*.navbar:before {
         background-color: #f6f6f6;
-    }*/   
+    }*/
 }
 
 @media screen and (max-width: 480px) {
     .site-logo-wrapper {
         margin-left: 1.75rem;
     }
-    
+
     #contact {
         display: none;
     }
-    
+
     .toolbar .toolbar-toggle {
         box-shadow: none;
         border-right: 0;
     }
-    
+
     /* TODO: Name it with a class */
     .hero-slider > .hero-bottom > .container {
         padding-top: 15rem;
@@ -660,8 +661,8 @@ a.add-to-wishlist {
 
 .condiment-chili {
     background-image: url(img/template/phobulous/condiment-chili.png);
-    background-size: contain;  
-    width: 15.625%;   
+    background-size: contain;
+    width: 15.625%;
 }
 
 .condiment-cilantro {
@@ -924,7 +925,7 @@ a.more.style03 span::before {
 
 .parallax-app-wrapper {
     top: 95vh;
-    height: auto; 
+    height: auto;
     width: 100%;
 }
 
@@ -940,17 +941,17 @@ a.more.style03 span::before {
 }
 
 /* Override colors */
-.dark h1, 
-.dark h2, 
-.dark h3, 
-.dark h4, 
-.dark h5, 
-.dark h6, 
-.dark .h1, 
-.dark .h2, 
-.dark .h3, 
-.dark .h4, 
-.dark .h5, 
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6,
+.dark .h1,
+.dark .h2,
+.dark .h3,
+.dark .h4,
+.dark .h5,
 .dark .h6,
 .dark .item-name,
 .dark .shop-item .shop-item-details,
@@ -978,7 +979,7 @@ a.more.style03 span::before {
 .fixed {
     position: fixed;
 }
-    
+
 @media screen and (max-width: 1780px) {
     .slide .from-bottom {
         bottom: 18%;
@@ -1001,39 +1002,39 @@ a.more.style03 span::before {
         background-size: contain;
         transform: translate(40%, -23%) rotate(-84deg);
     }
-    
+
     .mint {
         position: absolute;
         left: -2%;
         bottom: -13.15rem;
         z-index: 4 !important;
     }
-    
+
     .mint:hover {
         transform: translate(40%, -23%) rotate(-82deg);
     }
-    
+
     .cilantro {
         background-image: url(img/template/phobulous/cilantro.png);
         background-size: contain;
         transform: translate(-35%, -5%) rotate(16deg);
     }
-    
+
     .cilantro {
         position: absolute;
         right: 12.5%;
         bottom: -30rem;
         z-index: 10;
     }
-    
+
     .cilantro:hover {
         transform: translate(-35%, -5%) rotate(14deg);
     }
-    
+
     .takeout-menu {
         width: 17.5%;
     }
-    
+
     .slide .from-top,
     .slide .from-bottom {
         margin: 0 auto;
@@ -1041,27 +1042,27 @@ a.more.style03 span::before {
         right: auto;
         left: auto;
     }
-    
+
     .slide .from-top {
         left: 10%;
     }
-    
+
     .slide .from-bottom {
         bottom: 5%;
         left: 2%;
     }
-    
+
     .hero-slider h2, .hero-slider .h2 {
         font-size: 3.5rem; /* TODO: Scale all font-sizes */
     }
-    
+
     .firebrand-hero {
         position: absolute;
         transform: rotate(90deg);
         top: -27.5vh;
     }
-    
-    
+
+
     .pdf-menu-modal {
         width: 80%;
     }
@@ -1080,14 +1081,14 @@ a.more.style03 span::before {
     .slide .from-top {
         left: 10%;
     }
-    
+
     .slide .from-bottom {
         bottom: 46%;
         left: 7%;
     }
 }
 
-@media screen and (max-width: 991px) {    
+@media screen and (max-width: 991px) {
     .footer .column {
         display: block;
         width: 100%;
@@ -1103,26 +1104,26 @@ a.more.style03 span::before {
     }
 }
 
-@media screen and (max-width: 768px) {    
+@media screen and (max-width: 768px) {
     .firebrand-hero {
         position: absolute;
         display: none;
     }
-    
+
     h1.cursive, .h1 .cursive {
         font-size: 7.5rem;
     }
-    
+
     .hero-slider .slide {
         /*height: 510px;*/
         background-size: cover;
         height: 100vh;
     }
-    
+
     .parallax-app-wrapper {
         top: 60vh;
     }
-    
+
     .slide .from-top {
         bottom: auto;
         top: 25%;
@@ -1132,7 +1133,7 @@ a.more.style03 span::before {
         bottom: 10%;
         top: auto;
     }
-    
+
     .slide .from-top,
     .slide .from-bottom {
         text-align: center;
@@ -1140,11 +1141,11 @@ a.more.style03 span::before {
         left: 0;
         right: 0;
     }
-    
+
     .text-right {
         text-align: center;
     }
-    
+
     .text-left {
         text-align: center;
     }
@@ -1163,21 +1164,21 @@ a.more.style03 span::before {
         -moz-transition: 0.15s ease-in-out;
         -o-transition: 0.15s ease-in-out;
     }
-    
+
     .pdf-menu-modal {
         width: 100%;
     }
-    
+
     .owl-carousel .owl-controls .owl-dots {
         position: absolute;
         bottom: 65px;
     }
-    
+
     body, p, a, li {
         font-family: 'Gentium Basic', serif !important;
         font-size: 1.85rem !important;
     }
-    
+
     .shop-item-title,
     .shop-item-price,
     .shop-item-price > * {
@@ -1186,31 +1187,31 @@ a.more.style03 span::before {
         font-style: normal;
         text-transform: none;
     }
-    
-    .shop-item .shop-item-details .shop-item-title, 
+
+    .shop-item .shop-item-details .shop-item-title,
     .shop-item .shop-item-details .shop-item-price {
         vertical-align: top;
     }
-    
+
     .shop-item-title {
         margin-bottom: 10px;
     }
-    
+
     .shop-item {
         margin-bottom: 10px;
     }
-    
+
     /*a.more.style03 span {
         top: 15px;
     }*/
-    
+
     .mint {
         position: absolute;
         left: 17%;
         bottom: -16.15rem;
         z-index: 4 !important;
     }
-    
+
     .copyright {
         visibility: hidden; /* TODO: Fix me */
     }
@@ -1223,23 +1224,23 @@ a.more.style03 span::before {
         font-style: normal;
         text-transform: none;
     }
-    
+
     h1.cursive, .h1 .cursive {
         font-size: 5.5rem;
     }
-    
+
     .slide .from-bottom {
         display: none;
     }
-    
+
     .owl-carousel .owl-controls .owl-dots {
         display: none;
     }
-    
+
     .toolbar-wrapper .toolbar {
         max-width: 95px;
     }
-    
+
     .toolbar-dropdown {
         width: 100%;
     }
@@ -1318,7 +1319,7 @@ small.info {
     font-size: 13px;
     margin-bottom: 10px;
   	display: block;
-  
+
 }
 
 .shaky {
@@ -1349,7 +1350,7 @@ small.info {
   10%, 90% {
     transform: translate3d(-1px, 0, 0);
   }
-  
+
   20%, 80% {
     transform: translate3d(2px, 2px, 0);
   }
@@ -1366,7 +1367,7 @@ small.info {
   10%, 90% {
     transform: translate3d(-2px, -3px, 0);
   }
-  
+
   20%, 80% {
     transform: translate3d(3px, 1px, 0);
   }
@@ -1383,7 +1384,7 @@ small.info {
   10%, 90% {
     transform: translate3d(-4px, -3px, 0);
   }
-  
+
   20%, 80% {
     transform: translate3d(3px, 2px, 0);
   }
@@ -1400,7 +1401,7 @@ small.info {
   10%, 90% {
     transform: translate3d(-2px, 3px, 0);
   }
-  
+
   20%, 80% {
     transform: translate3d(3px, -2px, 0);
   }
@@ -1530,7 +1531,7 @@ small.info {
 .two-column-list {
     list-style: none;
     list-style-type: none;
-    
+
 }
 
 .two-column-list li {
