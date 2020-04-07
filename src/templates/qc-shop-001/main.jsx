@@ -415,7 +415,6 @@ export class QcShop001 extends Component {
                           <small><small>
                             *Save 10% on orders through online OR the <strong>SimplyDine app</strong>.<br />
                             Discounts and specials are subject to change without notice.<br />
-                            <strong>Minimum order of $30</strong>.
                           </small></small>
                         </div>
                       </div>
