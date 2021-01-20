@@ -71,7 +71,7 @@
     "flux": "^3.1.2",
     "griddle-react": "^0.7.1",
     "grommet": "^1.2.1",
-    "gsap": "^1.20.3",
+    "gsap": "^3.6.0",
     "isotope-layout": "^3.0.4",
     "json-stringify-pretty-compact": "^1.0.4",
     "jsx-loader": "^0.13.2",
