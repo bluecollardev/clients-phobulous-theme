@@ -104,6 +104,6 @@
     "react-toggle-display": "^2.2.0",
     "scrollmagic": "^2.0.5",
     "url-parse": "^1.2.0",
-    "validator": "^9.2.0"
+    "validator": "^13.7.0"
   }
 }
